@@ -48,7 +48,7 @@ const HeroSection = () => {
           hybrid learning, and job support.
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up mb-16" style={{ animationDelay: '0.6s' }}>
           <Button 
             variant="hero" 
             size="lg" 
