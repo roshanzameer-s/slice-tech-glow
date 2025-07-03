@@ -64,6 +64,7 @@ const CoursesSection = () => {
 
   const handleCourseClick = (courseId: string) => {
     navigate(`/courses/${courseId}`);
+    window.scrollTo(0, 0);
   };
 
   return (

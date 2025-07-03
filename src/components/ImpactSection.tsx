@@ -37,7 +37,7 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "" }: CounterProps) =>
 
 const ImpactSection = () => {
   const stats = [
-    { number: 100000, suffix: "+", label: "Students Trained", icon: "👨‍🎓" },
+    { number: 100, suffix: "+", label: "Students Trained", icon: "👨‍🎓" },
     { number: 10, suffix: "+", label: "Career Tracks", icon: "🚀" },
     { number: 100, suffix: "%", label: "Practical Training", icon: "💻" },
     { number: 95, suffix: "%", label: "Job Success Rate", icon: "💼" }

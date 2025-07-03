@@ -26,6 +26,13 @@ const HeroSection = () => {
 
       {/* Hero Content */}
       <div className="relative z-10 text-center max-w-6xl mx-auto px-6">
+        <div className="mb-8 animate-fade-in-up">
+          <img 
+            src="/lovable-uploads/d54593f0-e237-4f87-bc17-689246a69830.png" 
+            alt="CineSlice Logo" 
+            className="mx-auto h-20 md:h-24 object-contain"
+          />
+        </div>
         <h1 className="text-6xl md:text-8xl font-bold mb-8 animate-fade-in-up">
           <span className="bg-gradient-primary bg-clip-text text-transparent">
             Advance Your Career
