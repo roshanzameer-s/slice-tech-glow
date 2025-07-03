@@ -2,41 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* CineSlice Design System - Dark Theme with Vibrant Accents */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dark theme base */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Vibrant accent colors */
+    --primary: 24 95% 53%;  /* Electric Orange */
+    --primary-foreground: 240 10% 3.9%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 195 100% 50%;  /* Cyber Blue */
+    --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 24 95% 53%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* CineSlice Brand Colors */
+    --electric-orange: 24 95% 53%;
+    --electric-orange-glow: 24 95% 53%;
+    --cyber-blue: 195 100% 50%;
+    --cyber-blue-glow: 195 100% 50%;
+    --vibrant-violet: 262 83% 67%;
+    --vibrant-violet-glow: 262 83% 67%;
+    --neon-red: 0 72% 51%;
+    --neon-red-glow: 0 72% 51%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--electric-orange)), hsl(var(--cyber-blue)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--vibrant-violet)), hsl(var(--neon-red)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--electric-orange) / 0.1), hsl(var(--cyber-blue) / 0.1));
+    --gradient-card: linear-gradient(135deg, hsl(var(--background)), hsl(var(--secondary)));
+
+    /* Shadows & Glows */
+    --glow-orange: 0 0 30px hsl(var(--electric-orange) / 0.3);
+    --glow-blue: 0 0 30px hsl(var(--cyber-blue) / 0.3);
+    --glow-violet: 0 0 30px hsl(var(--vibrant-violet) / 0.3);
+    --glow-red: 0 0 30px hsl(var(--neon-red) / 0.3);
+    --shadow-elevated: 0 25px 50px -12px hsl(var(--background) / 0.8);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-glow: box-shadow 0.3s ease, transform 0.3s ease;
 
     --sidebar-background: 0 0% 98%;
 
