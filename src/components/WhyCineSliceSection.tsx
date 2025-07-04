@@ -47,6 +47,18 @@ const WhyCineSliceSection = () => {
           </p>
         </div>
 
+        {/* Hero Image */}
+        <div className="flex justify-center mb-16">
+          <div className="relative max-w-2xl">
+            <img 
+              src="/lovable-uploads/4f59ea53-f5c2-4a65-93e5-cdeb1837f4e0.png" 
+              alt="CineSlice transforms education" 
+              className="w-full h-auto rounded-2xl shadow-glow-blue hover:shadow-glow-orange transition-all duration-500 hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-primary opacity-10 rounded-2xl"></div>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <Card 

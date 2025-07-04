@@ -84,8 +84,11 @@ const CoursesSection = () => {
           {courses.map((course, index) => (
             <Card 
               key={course.id}
-              className={`group cursor-pointer bg-gradient-card border-border hover:shadow-glow-${course.color} transition-all duration-500 hover:scale-105 animate-scale-in overflow-hidden`}
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className={`group cursor-pointer bg-gradient-card border-border hover:shadow-glow-${course.color} transition-all duration-500 hover:scale-105 animate-scale-in overflow-hidden animate-float`}
+              style={{ 
+                animationDelay: `${index * 0.1}s`,
+                animationDuration: `${3 + (index % 3)}s`
+              }}
               onClick={() => handleCourseClick(course.id)}
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${course.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />

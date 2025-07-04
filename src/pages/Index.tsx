@@ -6,6 +6,8 @@ import SocialProofSection from "@/components/SocialProofSection";
 import LearningPathSection from "@/components/LearningPathSection";
 import InstructorSection from "@/components/InstructorSection";
 import TeamSection from "@/components/TeamSection";
+import CEOAchievementsSection from "@/components/CEOAchievementsSection";
+import InvestorsBlogSection from "@/components/InvestorsBlogSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -19,6 +21,8 @@ const Index = () => {
       <LearningPathSection />
       <InstructorSection />
       <TeamSection />
+      <CEOAchievementsSection />
+      <InvestorsBlogSection />
       <Footer />
     </div>
   );
