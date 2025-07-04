@@ -52,6 +52,25 @@ const CoursesSection = () => {
       gradient: "from-electric-orange/20 to-transparent"
     },
     {
+  id: "cloud-engineering",
+  title: "Cloud Engineering",
+  subtitle: "Power the cloud revolution",
+  description: "AWS, Azure, DevOps, and cloud infrastructure management",
+  icon: "☁️",
+  color: "sky-blue",
+  gradient: "from-sky-blue/20 to-transparent"
+},
+    {
+    id: "cs-fundamentals",
+    title: "CS Fundamentals",
+    subtitle: "Master core computer science",
+    description: "Data structures, algorithms, OS, DBMS, and problem-solving",
+    icon: "🧠",
+    color: "tech-green",
+    gradient: "from-tech-green/20 to-transparent"
+  }
+  ,
+    {
       id: "programming",
       title: "Programming",
       subtitle: "Build the future with code",
