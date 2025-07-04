@@ -30,7 +30,7 @@ const HeroSection = () => {
           <img 
             src="/lovable-uploads/d54593f0-e237-4f87-bc17-689246a69830.png" 
             alt="CineSlice Logo" 
-            className="mx-auto h-20 md:h-24 object-contain"
+            className="mx-auto h-40 md:h-60 object-contain"
           />
         </div>
         <h1 className="text-6xl md:text-8xl font-bold mb-8 animate-fade-in-up">
@@ -68,8 +68,8 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce-gentle">
-        <div className="w-6 h-10 border-2 border-muted-foreground rounded-full flex justify-center">
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 animate-bounce-gentle">
+        <div className="w-6 h-12 border-2 border-muted-foreground rounded-full flex justify-center">
           <div className="w-1 h-3 bg-electric-orange rounded-full mt-2 animate-float" />
         </div>
       </div>

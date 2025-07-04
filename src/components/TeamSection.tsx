@@ -7,21 +7,21 @@ const TeamSection = () => {
       role: "Chief Executive Officer & Founder",
       description: "Leading a team of exceptional individuals, revolutionizing education and creating opportunities that transform lives.",
       skills: ["Visionary Leader", "Mission-Driven", "Team Builder"],
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+      image: "/public/subbu.png"
     },
     {
       name: "Bhavya Sree",
       role: "Co-Founder",
       description: "Passionate about creating innovative learning experiences and building strong educational foundations.",
       skills: ["Strategic Planning", "Innovation", "Leadership"],
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face"
+      image: "/public/bhavya.png"
     },
     {
       name: "Roshan Zameer",
       role: "Chief Technology Officer",
       description: "Technology enthusiast driving digital transformation and technical excellence.",
       skills: ["Technology Strategy", "Innovation", "System Architecture"],
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
+      image: "/public/roshan.jpg"
     },
     {
       name: "Mohith K",
@@ -29,38 +29,38 @@ const TeamSection = () => {
       description: "Operational excellence expert ensuring smooth delivery of educational programs.",
       skills: ["Operations Management", "Process Optimization", "Quality Assurance"],
       contact: {
-        phone: "+91 xxxx xxxx xx",
+        phone: "+91 779 928 43 20",
         email: "mohith@cineslice.com"
       },
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face"
+      image: "/public/mohith.jpg"
     },
     {
       name: "Rajesh",
       role: "Chief Financial Officer",
       description: "Financial strategist ensuring sustainable growth and resource optimization.",
       skills: ["Financial Planning", "Strategic Analysis", "Growth Management"],
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=300&h=300&fit=crop&crop=face"
+      image: "/public/rajesh.jpg"
     },
     {
       name: "Balaji",
       role: "Project Manager",
       description: "Project management expert delivering successful outcomes and managing complex initiatives.",
       skills: ["Project Management", "Team Coordination", "Delivery Excellence"],
-      image: "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=300&h=300&fit=crop&crop=face"
+      image: "/public/balaji.jpg"
     },
     {
       name: "Arshad",
       role: "Head of Growth",
       description: "Growth specialist focused on expanding reach and building strategic partnerships.",
       skills: ["Growth Strategy", "Marketing", "Partnership Development"],
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300&h=300&fit=crop&crop=face"
+      image: "/public/arshad.jpg"
     },
     {
       name: "Jahnavi",
       role: "Junior Designer Mentor",
       description: "Creative mentor passionate about guiding learners in UI/UX and graphic design, blending practical skills with real-world applications.",
       skills: ["UI/UX Design", "Graphic Design", "Figma", "Adobe Suite", "Design Mentorship", "User-Centered Design"],
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face"
+      image: "/public/jahnavi.jpg"
     }
   ];
 

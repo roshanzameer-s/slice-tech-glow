@@ -2,31 +2,35 @@ const SocialProofSection = () => {
   const socialStats = [
     {
       platform: "YouTube",
-      count: "800K+",
+      count: "8K+",
       icon: "📺",
       color: "neon-red",
-      description: "Subscribers learning daily"
+      description: "Subscribers learning daily",
+      link: "https://www.youtube.com/watch?v=TrDGw3iegt0" // Replace with your actual link
     },
     {
       platform: "Instagram",
-      count: "210K+",
+      count: "5K+",
       icon: "📸",
       color: "vibrant-violet",
-      description: "Creative community"
+      description: "Creative community",
+      link: "https://www.instagram.com/cineslice.in/"
     },
     {
       platform: "LinkedIn",
-      count: "750K+",
+      count: "1k+",
       icon: "💼",
       color: "cyber-blue",
-      description: "Professional network"
+      description: "Professional network",
+      link: "https://www.linkedin.com/company/cineslice/posts/?feedView=all"
     },
     {
       platform: "Twitter",
-      count: "160K+",
+      count: "15K+",
       icon: "🐦",
       color: "electric-orange",
-      description: "Tech enthusiasts"
+      description: "Tech enthusiasts",
+      link: "https://twitter.com/yourhandle"
     }
   ];
 
@@ -45,29 +49,36 @@ const SocialProofSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {socialStats.map((social, index) => (
-            <div
+            <a
               key={index}
-              className={`group bg-gradient-card p-8 rounded-2xl border border-border hover:shadow-glow-${social.color} transition-all duration-500 hover:scale-105 animate-scale-in cursor-pointer`}
+              href={social.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
-              <div className="text-center">
-                <div className="text-5xl mb-4 animate-bounce-gentle group-hover:scale-110 transition-transform duration-300">
-                  {social.icon}
+              <div
+                className={`bg-gradient-card p-8 rounded-2xl border border-border hover:shadow-glow-${social.color} transition-all duration-500 hover:scale-105 animate-scale-in cursor-pointer`}
+              >
+                <div className="text-center">
+                  <div className="text-5xl mb-4 animate-bounce-gentle group-hover:scale-110 transition-transform duration-300">
+                    {social.icon}
+                  </div>
+
+                  <h3 className="text-2xl font-bold mb-2 text-foreground">
+                    {social.platform}
+                  </h3>
+
+                  <div className={`text-4xl font-bold text-${social.color} mb-3`}>
+                    {social.count}
+                  </div>
+
+                  <p className="text-muted-foreground text-sm">
+                    {social.description}
+                  </p>
                 </div>
-                
-                <h3 className="text-2xl font-bold mb-2 text-foreground">
-                  {social.platform}
-                </h3>
-                
-                <div className={`text-4xl font-bold text-${social.color} mb-3`}>
-                  {social.count}
-                </div>
-                
-                <p className="text-muted-foreground text-sm">
-                  {social.description}
-                </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
@@ -77,12 +88,18 @@ const SocialProofSection = () => {
           </p>
           <div className="flex justify-center gap-4">
             {socialStats.map((social, index) => (
-              <button
+              <a
                 key={index}
-                className={`w-12 h-12 rounded-full border-2 border-${social.color} text-${social.color} hover:bg-${social.color} hover:text-background transition-all duration-300 hover:scale-110`}
+                href={social.link}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                {social.icon}
-              </button>
+                <button
+                  className={`w-12 h-12 rounded-full border-2 border-${social.color} text-${social.color} hover:bg-${social.color} hover:text-background transition-all duration-300 hover:scale-110`}
+                >
+                  {social.icon}
+                </button>
+              </a>
             ))}
           </div>
         </div>
