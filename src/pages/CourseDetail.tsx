@@ -254,7 +254,12 @@ const CourseDetail = () => {
                 </div>
               </div>
 
-              <Button variant="hero" size="lg" className="w-full sm:w-auto">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="w-full sm:w-auto"
+                onClick={() => window.open('https://forms.google.com/your-application-form', '_blank')}
+              >
                 Apply Now
               </Button>
             </div>
@@ -359,12 +364,20 @@ const CourseDetail = () => {
             Join thousands of students who have transformed their careers with CineSlice
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="lg">
-              Apply Now
-            </Button>
-            <Button variant="glass" size="lg">
-              Download Curriculum
-            </Button>
+              <Button 
+                variant="hero" 
+                size="lg"
+                onClick={() => window.open('https://forms.google.com/your-application-form', '_blank')}
+              >
+                Apply Now
+              </Button>
+              <Button 
+                variant="glass" 
+                size="lg"
+                onClick={() => window.open('https://your-curriculum-ppt-link.com', '_blank')}
+              >
+                Download Curriculum
+              </Button>
           </div>
         </div>
       </section>

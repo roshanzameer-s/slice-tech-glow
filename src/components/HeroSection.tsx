@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-bg.jpg";
+import LoginDialog from "@/components/LoginDialog";
 
 const HeroSection = () => {
   const scrollToCourses = () => {
@@ -16,12 +17,32 @@ const HeroSection = () => {
       />
       <div className="absolute inset-0 bg-gradient-hero opacity-80" />
       
-      {/* Floating Particles */}
+      {/* Animated Stars Background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-1/4 w-2 h-2 bg-electric-orange rounded-full animate-float opacity-70" />
-        <div className="absolute top-1/3 right-1/4 w-3 h-3 bg-cyber-blue rounded-full animate-float opacity-60" style={{ animationDelay: '1s' }} />
-        <div className="absolute bottom-1/3 left-1/3 w-2 h-2 bg-vibrant-violet rounded-full animate-float opacity-80" style={{ animationDelay: '2s' }} />
-        <div className="absolute top-1/2 right-1/3 w-2 h-2 bg-neon-red rounded-full animate-float opacity-70" style={{ animationDelay: '0.5s' }} />
+        <div className="absolute top-20 left-1/4 w-1 h-1 bg-electric-orange rounded-full animate-float opacity-70" />
+        <div className="absolute top-1/3 right-1/4 w-2 h-2 bg-cyber-blue rounded-full animate-float opacity-60" style={{ animationDelay: '1s' }} />
+        <div className="absolute bottom-1/3 left-1/3 w-1 h-1 bg-vibrant-violet rounded-full animate-float opacity-80" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-1/2 right-1/3 w-1 h-1 bg-neon-red rounded-full animate-float opacity-70" style={{ animationDelay: '0.5s' }} />
+        <div className="absolute top-10 right-10 w-1 h-1 bg-electric-orange rounded-full animate-pulse opacity-60" />
+        <div className="absolute bottom-20 left-10 w-2 h-2 bg-cyber-blue rounded-full animate-pulse opacity-50" style={{ animationDelay: '1.5s' }} />
+        <div className="absolute top-40 left-1/2 w-1 h-1 bg-vibrant-violet rounded-full animate-float opacity-90" style={{ animationDelay: '3s' }} />
+        <div className="absolute bottom-40 right-1/2 w-1 h-1 bg-neon-red rounded-full animate-pulse opacity-70" style={{ animationDelay: '2.5s' }} />
+        
+        {/* Moving Stars */}
+        <div className="absolute animate-slide-horizontal">
+          <div className="w-1 h-1 bg-electric-orange rounded-full opacity-80" />
+        </div>
+        <div className="absolute animate-slide-diagonal" style={{ animationDelay: '2s' }}>
+          <div className="w-1 h-1 bg-cyber-blue rounded-full opacity-70" />
+        </div>
+        <div className="absolute animate-slide-vertical" style={{ animationDelay: '4s' }}>
+          <div className="w-1 h-1 bg-vibrant-violet rounded-full opacity-60" />
+        </div>
+      </div>
+
+      {/* Login Button */}
+      <div className="absolute top-6 right-6 z-20">
+        <LoginDialog />
       </div>
 
       {/* Hero Content */}
