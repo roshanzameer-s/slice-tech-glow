@@ -5,7 +5,7 @@ const InstructorSection = () => {
     {
       name: "Subramanyam Chowdary",
       role: "Founder & Lead Instructor",
-      image: "/public/ceosubbu.jpg",
+      image: "C:/Users/rosha/Desktop/CS/slice-tech-glow/public/ceosubbu.jpg",
       badge: "Founder"
     },
     {
