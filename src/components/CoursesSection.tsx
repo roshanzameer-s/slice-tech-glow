@@ -134,6 +134,7 @@ const CoursesSection = () => {
                   className={`group-hover:text-${course.color} group-hover:border-${course.color} transition-colors duration-300`}
                 >
                   Learn More
+                  
                 </Button>
               </CardContent>
             </Card>

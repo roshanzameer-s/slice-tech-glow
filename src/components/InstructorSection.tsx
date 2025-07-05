@@ -11,7 +11,7 @@ const InstructorSection = () => {
     {
       name: "Roshan Zameer",
       role: "CTO & Tech Mentor",
-      image: "/public/roshan.jpg",
+      image: "C:/Users/rosha/Desktop/CS/slice-tech-glow/public/roshan.jpg",
       badge: "CTO"
     },
     {
