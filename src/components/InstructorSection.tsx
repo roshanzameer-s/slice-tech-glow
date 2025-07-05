@@ -5,25 +5,25 @@ const InstructorSection = () => {
     {
       name: "Subramanyam Chowdary",
       role: "Founder & Lead Instructor",
-      image: "C:/Users/rosha/Desktop/CS/slice-tech-glow/public/ceosubbu.jpg",
+      image: "/ceosubbu.jpg",
       badge: "Founder"
     },
     {
       name: "Roshan Zameer",
       role: "CTO & Tech Mentor",
-      image: "C:/Users/rosha/Desktop/CS/slice-tech-glow/public/roshan.jpg",
+      image: "/roshan.jpg",
       badge: "CTO"
     },
     {
       name: "Jahnavi",
       role: "Junior Design Mentor",
-      image: "/public/jahnavi.jpg",
+      image: "/jahnavi.jpg",
       badge: "Mentor"
     },
     {
       name: "Mohith",
       role: "Cyber Security Tech Assistant",
-      image: "/public/mohith.jpg",
+      image: "/mohith.jpg",
       badge: "Co-Founder"
     }
   ];

@@ -7,21 +7,21 @@ const TeamSection = () => {
       role: "Chief Executive Officer & Founder",
       description: "Leading a team of exceptional individuals, revolutionizing education and creating opportunities that transform lives.",
       skills: ["Visionary Leader", "Mission-Driven", "Team Builder"],
-      image: "/public/subbu.png"
+      image: "/subbu.png"
     },
     {
       name: "Bhavya Sree",
       role: "Co-Founder",
       description: "Passionate about creating innovative learning experiences and building strong educational foundations.",
       skills: ["Strategic Planning", "Innovation", "Leadership"],
-      image: "/public/bhavya.png"
+      image: "/bhavya.png"
     },
     {
       name: "Roshan Zameer",
       role: "Chief Technology Officer",
       description: "Technology enthusiast driving digital transformation and technical excellence.",
       skills: ["Technology Strategy", "Innovation", "System Architecture"],
-      image: "/public/roshan.jpg"
+      image: "/roshan.jpg"
     },
     {
       name: "Mohith K",
@@ -32,35 +32,35 @@ const TeamSection = () => {
         phone: "+91 779 928 43 20",
         email: "mohith@cineslice.com"
       },
-      image: "/public/mohith.jpg"
+      image: "/mohith.jpg"
     },
     {
       name: "Rajesh",
       role: "Chief Financial Officer",
       description: "Financial strategist ensuring sustainable growth and resource optimization.",
       skills: ["Financial Planning", "Strategic Analysis", "Growth Management"],
-      image: "/public/rajesh.jpg"
+      image: "/rajesh.jpg"
     },
     {
       name: "Balaji",
       role: "Project Manager",
       description: "Project management expert delivering successful outcomes and managing complex initiatives.",
       skills: ["Project Management", "Team Coordination", "Delivery Excellence"],
-      image: "/public/balaji.jpg"
+      image: "/balaji.jpg"
     },
     {
       name: "Arshad",
       role: "Head of Growth",
       description: "Growth specialist focused on expanding reach and building strategic partnerships.",
       skills: ["Growth Strategy", "Marketing", "Partnership Development"],
-      image: "/public/arshad.jpg"
+      image: "/arshad.jpg"
     },
     {
       name: "Jahnavi",
       role: "Junior Designer Mentor",
       description: "Creative mentor passionate about guiding learners in UI/UX and graphic design, blending practical skills with real-world applications.",
       skills: ["UI/UX Design", "Graphic Design", "Figma", "Adobe Suite", "Design Mentorship", "User-Centered Design"],
-      image: "/public/jahnavi.jpg"
+      image: "/jahnavi.jpg"
     }
   ];
 
