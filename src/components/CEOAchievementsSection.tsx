@@ -3,15 +3,15 @@ import { Card, CardContent } from "@/components/ui/card";
 const CEOAchievementsSection = () => {
   const achievements = [
     {
-      image: "/ceosubbu.jpg",
+      image: "/gc.jpg",
       title: "Google for Startups"
     },
     {
-      image: "/subbu.png", 
+      image: "/prxo.jpg", 
       title: "Startup India Recognition"
     },
     {
-      image: "/ceosubbu.jpg",
+      image: "/inhub.jpg",
       title: "Innovation Hub Partner"
     }
   ];
