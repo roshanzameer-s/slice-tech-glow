@@ -35,11 +35,11 @@ const TeamSection = () => {
       image: "/mohith.jpg"
     },
     {
-      name: "Rajesh",
+      name: "Medha VS",
       role: "Chief Financial Officer",
       description: "Financial strategist ensuring sustainable growth and resource optimization.",
       skills: ["Financial Planning", "Strategic Analysis", "Growth Management"],
-      image: "/rajesh.jpg"
+      image: "/medhavs.jpg"
     },
     {
       name: "Balaji",
@@ -112,7 +112,7 @@ const TeamSection = () => {
                     {member.skills.slice(0, 3).map((skill, skillIndex) => (
                       <span 
                         key={skillIndex}
-                        className="px-2 py-1 bg-secondary text-xs rounded-full text-foreground border border-border"
+                        className="px-2 py-1 bg-secondary text-xs ronded-full text-foreground border border-border"
                       >
                         {skill}
                       </span>
