@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const InvestorsBlogSection = () => {
   const handleJoinClick = () => {
     // Open PPT in new tab
-    window.open("https://docs.google.com/presentation/d/your-presentation-id/edit", "_blank");
+    window.open("https://docs.google.com/presentation/d/1TzhNbTMFfl0ihSO9-KrbHa9Zt4HjjBkeC1oaNhigLwg/edit?usp=sharing", "_blank");
     // Open Google Form in new tab
     setTimeout(() => {
       window.open("https://forms.google.com/your-form-id", "_blank");
