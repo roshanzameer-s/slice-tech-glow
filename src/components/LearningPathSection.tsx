@@ -18,7 +18,8 @@ const LearningPathSection = () => {
       tools: ["After Effects", "Cinema 4D", "Nuke", "Blender"],
       duration: "6 months",
       projects: "15+ VFX projects",
-      image: "🎬"
+      image: "🎬",
+      price:"2999-3999"
     },
     programming: {
       title: "Programming",
@@ -29,10 +30,11 @@ const LearningPathSection = () => {
         "JavaScript frameworks (React, Node.js)",
         "Database design and cloud deployment"
       ],
-      tools: ["React", "Python", "Node.js", "MongoDB"],
+      tools: ["React", "Python", "Node.js", "MongoDB","Java"],
       duration: "8 months",
       projects: "20+ coding projects",
-      image: "💻"
+      image: "💻",
+      price:"999-1499"
     },
     design: {
       title: "Design",
@@ -46,7 +48,8 @@ const LearningPathSection = () => {
       tools: ["Figma", "Photoshop", "Illustrator", "XD"],
       duration: "5 months",
       projects: "12+ design projects",
-      image: "🎨"
+      image: "🎨",
+      price:"1499-2999"
     },
     interview: {
       title: "Interview Experience",
@@ -60,7 +63,8 @@ const LearningPathSection = () => {
       tools: ["Portfolio", "Resume", "LinkedIn", "GitHub"],
       duration: "2 months",
       projects: "Complete job readiness",
-      image: "💼"
+      image: "💼",
+      prices:"1999-2999"
     }
   };
 
