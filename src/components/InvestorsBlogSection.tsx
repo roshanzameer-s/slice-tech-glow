@@ -6,9 +6,7 @@ const InvestorsBlogSection = () => {
     // Open PPT in new tab
     window.open("https://docs.google.com/presentation/d/1TzhNbTMFfl0ihSO9-KrbHa9Zt4HjjBkeC1oaNhigLwg/edit?usp=sharing", "_blank");
     // Open Google Form in new tab
-    setTimeout(() => {
-      window.open("https://forms.google.com/your-form-id", "_blank");
-    }, 500);
+    
   };
 
   return (
